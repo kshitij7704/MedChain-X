@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedChain-X</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='base.css')}}">
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    <header class="header">
+    </header>
+    <div class="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
