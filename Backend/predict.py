@@ -16,7 +16,7 @@ def predict_sample(image_path):
     model = load_trained_model("model_vgg16.h5")
     if model is None:
         print("Model could not be loaded.")
-        return None  # Ensure it doesn't try to predict with a None model
+        return None
 
     try:
         img = load_img(image_path, target_size=(224, 224))
@@ -26,7 +26,8 @@ def predict_sample(image_path):
 
         prediction = model.predict(img_array)
         predicted_class = np.argmax(prediction)
-        confidence = float(prediction[0][predicted_class])  # Convert confidence to float for safety
+        # Converting confidence to float for safety
+        confidence = float(prediction[0][predicted_class])
         return categories[predicted_class], confidence
 
     except Exception as e:

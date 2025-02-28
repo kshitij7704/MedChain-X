@@ -10,7 +10,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
-        # Get user details
+        # Geting user details
         name = request.form.get("name")
         age = request.form.get("age")
         contact = request.form.get("contact")
@@ -18,7 +18,7 @@ def index():
         if not name or not age or not contact:
             return "Please fill in all the required fields"
 
-        # Handle file upload
+        # Handling file upload
         if "xray_image" not in request.files:
             return "No file part"
 
@@ -32,7 +32,7 @@ def index():
         action = request.form.get("action")
 
         if action == "predict":
-            # Predict condition
+            # Predicting condition
             result = predict_sample(filepath)
             if result is None:
                 return "Prediction failed. Please check the image format and try again."
@@ -41,7 +41,7 @@ def index():
             return render_template("result.html", name=name, age=age, contact=contact, prediction=prediction, confidence=confidence*100)
 
         elif action == "report":
-            # Generate report
+            # Generating report
             report_path = get_pdf(name, age, "Male", contact, filepath)
             return send_file(report_path, as_attachment=True)
 

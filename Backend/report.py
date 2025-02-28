@@ -66,10 +66,10 @@ def generate_medchainx_report(patient_name, age, gender, contact, xray_path, pre
     pdf.cell(200, 10, "Patient Details", ln=True, align='L')
     pdf.set_font("Arial", size=12)
     
-    pdf.cell(100, 8, f"Name: {patient_name}", ln=False)  # Name and Contact on the same line
+    pdf.cell(100, 8, f"Name: {patient_name}", ln=False)
     pdf.cell(100, 8, f"Contact: {contact}", ln=True)
     
-    pdf.cell(100, 8, f"Age: {age}", ln=False)  # Age and Gender on the same line
+    pdf.cell(100, 8, f"Age: {age}", ln=False)
     pdf.cell(100, 8, f"Gender: {gender}", ln=True)
 
     pdf.cell(200, 8, f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", ln=True)
@@ -111,7 +111,7 @@ def generate_medchainx_report(patient_name, age, gender, contact, xray_path, pre
     pdf.set_font("Arial", style='B', size=12)
     pdf.cell(200, 8, "Disclaimer:", ln=True)
     pdf.set_font("Arial", size=12)
-    disclaimer = "This AI-generated diagnosis is from MedChain-X. If you are not satisfied with the results or want an expert opinion, consult a doctor instantly through MedChain-X's 'Consult a Doctor' option."
+    disclaimer = "This AI-generated diagnosis. If not satisfied, consult a doctor instantly through MedChain-X."
     pdf.multi_cell(0, 8, disclaimer)
     pdf.ln(5)
 
