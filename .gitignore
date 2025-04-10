@@ -3,3 +3,5 @@ Model/config.py
 Backend/venv
 Backend/config.py
 Backend/test
+Backend/__pycache__
+.DS_Store
