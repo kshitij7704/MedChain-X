@@ -34,5 +34,5 @@ MedChain-X is an innovative platform that combines deep learning and blockchain 
 ### Setup
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/your-username/medchain-x.git
+   git clone https://github.com/kshitij7704/medchain-x.git
    cd medchain-x
