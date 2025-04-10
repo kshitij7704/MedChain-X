@@ -5,3 +5,6 @@ Backend/config.py
 Backend/test
 Backend/__pycache__
 .DS_Store
+Model/.DS_Store
+Model/__pycache__
+Model/.ipynb_checkpoints
