@@ -1,4 +1,4 @@
-# MedChain-X: Revolutionizing X-Ray Diagnosis with Blockchain and AI
+# MedChain-X: Medical X-Ray Diagnosis with Blockchain and AI
 
 ## Introduction
 MedChain-X is an innovative platform that combines deep learning and blockchain technology to provide fast, secure, and reliable X-ray diagnosis. By leveraging AI-based disease prediction and blockchain-backed data security, MedChain-X ensures instant medical insights while maintaining tamper-proof storage. 
@@ -11,11 +11,11 @@ MedChain-X is an innovative platform that combines deep learning and blockchain 
 - **Fast Processing**: AI predictions are generated within seconds, improving efficiency.
 
 ## Tech Stack
-- **Frontend**: Angular / React.js  
-- **Backend**: Flask / Node.js  
-- **Blockchain**: Solidity, Hyperledger Fabric, Ethereum  
+- **Frontend**: React.js  
+- **Backend**: Flask
+- **Database**: SQLite 
+- **Blockchain**: Solidity  
 - **AI & Deep Learning**: TensorFlow, PyTorch (CNN-based classification)  
-- **Storage**: IPFS for decentralized file storage  
 
 ## System Workflow
 1. **User Registration & Authentication**: Patients and doctors securely log in.  
@@ -29,7 +29,7 @@ MedChain-X is an innovative platform that combines deep learning and blockchain 
 - **Node.js** (for frontend)
 - **Python (Flask)** (for backend)
 - **TensorFlow/PyTorch** (for AI model)
-- **MetaMask/Web3.py** (for blockchain integration)
+- **MetaMask** (for blockchain integration)
 
 ### Setup
 1. Clone the repository:  
