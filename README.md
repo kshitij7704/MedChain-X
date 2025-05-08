@@ -13,7 +13,8 @@ MedChain-X is an innovative platform that combines deep learning and blockchain 
 ## Tech Stack
 - **Frontend**: React.js  
 - **Backend**: Flask
-- **Database**: SQLite 
+- **Database**: SQLite
+- **Authentication**: JWT
 - **Blockchain**: Solidity  
 - **AI & Deep Learning**: TensorFlow, PyTorch (CNN-based classification)  
 
