@@ -15,14 +15,15 @@ MedChain-X is an innovative platform that combines deep learning and blockchain 
 - **Backend**: Flask
 - **Database**: SQLite
 - **Authentication**: JWT
-- **Blockchain**: Solidity  
+- **Blockchain**: Solidity
+- **Decentralized File Storage**: IPFS.  
 - **AI & Deep Learning**: TensorFlow, PyTorch (CNN-based classification)  
 
 ## System Workflow
 1. **User Registration & Authentication**: Patients and doctors securely log in.  
 2. **X-Ray Upload**: Patients upload their X-ray images for analysis.  
 3. **AI Diagnosis**: The deep learning model predicts possible diseases.  
-4. **Blockchain Security**: X-ray hashes are stored on the blockchain to ensure tamper-proof access.  
+4. **Blockchain Security**: X-ray hashes are stored on the blockchain to ensure tamper-proof access.
 5. **Doctor Consultation**: Patients can consult verified doctors for expert opinions.  
 
 ## Installation
