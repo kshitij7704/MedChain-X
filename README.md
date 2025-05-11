@@ -16,8 +16,9 @@ MedChain-X is an innovative platform that combines deep learning and blockchain 
 - **Database**: SQLite
 - **Authentication**: JWT
 - **Blockchain**: Solidity
-- **Decentralized File Storage**: IPFS.  
-- **AI & Deep Learning**: TensorFlow, PyTorch (CNN-based classification)  
+- **Decentralized File Storage**: IPFS (via Pinata)
+- **AI & Deep Learning**: TensorFlow, PyTorch (CNN-based classification)
+- **Report Generation**: Google Gemini API Key
 
 ## System Workflow
 1. **User Registration & Authentication**: Patients and doctors securely log in.  
