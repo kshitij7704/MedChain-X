@@ -49,6 +49,34 @@ MedChain-X integrates deep learning, blockchain, and secure cloud technologies t
 
 ---
 
+## 🧩 System Components
+
+### 👤 Authentication
+- Role-based login: Lab Incharge / Doctor
+- Signup & Login backed by JWT
+- Stored in `users.db`
+
+### 🧪 Prediction Workflow
+- Upload X-ray → Sent to Flask API
+- Preprocessed & fed to CNN model
+- Prediction + Confidence returned
+
+### 📦 Decentralized Storage
+- X-ray images uploaded to IPFS via Pinata
+- Returns CID used for permanent access
+
+### 🔗 Blockchain Flow
+- Solidity smart contract (`MedChainXRecords`)
+- Stores `patientName`, `age`, `prediction`, `imageCID`, `timestamp`, `addedBy`
+- Event `RecordAdded` used to retrieve record ID
+
+### 👨‍⚕️ Doctor Consultation
+- Doctor can view blockchain-backed cases
+- On-chain verification of data & image
+- Doctor fetches record using Record ID
+
+---
+
 ## 🔁 System Workflow
 
 ```mermaid
@@ -78,8 +106,8 @@ flowchart TD
 #### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/kshitij7704/medchain-x.git
-cd medchain-x
+git clone https://github.com/kshitij7704/MedChain-X.git
+cd MedChain-X
 ```
 
 #### 2. Frontend
