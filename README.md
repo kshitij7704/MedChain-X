@@ -147,14 +147,9 @@ python app.py
 
 ## 📄 Deliverables
 
-- ✅ Responsive Full-stack Web Application
-- ✅ Trained AI Model for Disease Prediction
-- ✅ Integrated Smart Contract (Ethereum-compatible)
-- ✅ Generated PDF Reports
-- ✅ Secure IPFS File Handling via Pinata
+✅ Responsive Full-stack Web Application <br>
+✅ Trained AI Model for Disease Prediction <br>
+✅ Integrated Smart Contract (Ethereum-compatible) <br>
+✅ Generated PDF Reports <br>
+✅ Secure IPFS File Handling via Pinata <br>
 
----
-
-
-## 📜 License
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for more details.
