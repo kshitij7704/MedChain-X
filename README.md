@@ -79,14 +79,7 @@ MedChain-X integrates deep learning, blockchain, and secure cloud technologies t
 
 ## 🔁 System Workflow
 
-```mermaid
-flowchart TD
-  A[User Login] --> B[Upload Chest X-Ray]
-  B --> C[AI Model: Predict Disease]
-  C --> D[Generate Report & Store CID on IPFS]
-  D --> E[Record Details on Blockchain]
-  E --> F[Doctor Reviews via On-Chain Lookup]
-```
+![System Flow](MedChain-X_Flow_Diagram.png)
 
 ---
 
